@@ -11,8 +11,8 @@ class Program
         job1._jobEndYear = 2026;
 
         Job job2 = new Job();
-        job2._profession = "Manager";
-        job2._companey = "";
+        job2._profession = "CEO Manager";
+        job2._companey = "Mojang Studios";
         job2._jobStartYear = 2026;
         job2._jobEndYear = 2028;
 
