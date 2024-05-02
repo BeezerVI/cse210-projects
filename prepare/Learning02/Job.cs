@@ -1,5 +1,4 @@
 using System;
-
 public class Job
 {
     public string _profession;
@@ -10,6 +9,7 @@ public class Job
 
         public void DisplayJob()
     {
+        Console.WriteLine("Jobs:");
         Console.WriteLine($"{_profession} ({_companey}) {_jobStartYear}-{_jobEndYear}");
     }
 }
