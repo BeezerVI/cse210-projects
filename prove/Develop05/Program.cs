@@ -7,8 +7,10 @@ class Program
         Console.WriteLine("Hello Develop05 World!");
         GoalManager goal = new GoalManager();
         Console.Clear();
-        while (true == true){
-            goal.Start();
+        bool isTrue = true;
+        while (isTrue == true){
+            isTrue = goal.DisplayPlayerInfo();
         }
+        Console.WriteLine("Good bye");
     }
 }
