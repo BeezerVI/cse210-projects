@@ -39,7 +39,7 @@ public class Video{
         Console.WriteLine($"\n  {_title}\nLength {_videoLength}\nBy {_author}\n\n There are {FindNumberOfComments()} Comments:");
 
         foreach (Comment item in _comment){ // Go through list of comments
-            Console.WriteLine(item.GetFullCommentString());
+            Console.WriteLine($"{item.GetFullCommentString()}\n");
         }
     }
     private int FindNumberOfComments(){return _comment.Count;}
