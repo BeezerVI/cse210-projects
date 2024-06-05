@@ -1,9 +1,9 @@
 public abstract class Activity
 {
     protected string _date;
-    protected int _minutes;
+    protected double _minutes;
 
-    public Activity(string date, int minutes)
+    public Activity(string date, double minutes)
     {
         _date = date;
         _minutes = minutes;
@@ -13,7 +13,7 @@ public abstract class Activity
     public abstract double GetSpeed();
     public abstract double GetPace();
     public abstract string GetClassName();
-    public int GetMinutes()
+    public double GetMinutes()
     {
         return _minutes;
     }

@@ -3,7 +3,7 @@ public class SwimmingActivity : Activity
     private double _laps;
     private const double _LapLength = 50; // length of a lap in meters
 
-    public SwimmingActivity(string date, int minutes, double laps) : base(date, minutes)
+    public SwimmingActivity(string date, double minutes, double laps) : base(date, minutes)
     {
         _laps = laps;
     }

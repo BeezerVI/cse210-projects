@@ -1,7 +1,7 @@
 public class BicyclesActivity : Activity
 {
     double _speed;
-    public BicyclesActivity(string date, int minutes, double speed) : base(date, minutes)
+    public BicyclesActivity(string date, double minutes, double speed) : base(date, minutes)
     {
         _speed = speed;
     }
